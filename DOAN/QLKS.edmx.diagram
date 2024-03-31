@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f32a1609398441dc90c54f8d0b7a19b0" Name="Diagram1">
+        <EntityTypeShape EntityType="QLKS1Model.CTTIENNGHI" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.DICHVU" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.DICHVUPHONG" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.HOADON" Width="1.5" PointX="8.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.KHACHHANG" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.LOAIDICHVU" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.LOAIPHONG" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.NHANVIEN" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.PHIEUDATPHONG" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.PHONG" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.Phong_CTTIENNGHI" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.TAIKHOAN" Width="1.5" PointX="0.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.TIENNGHI" Width="1.5" PointX="0.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKS1Model.TINHTRANG" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="QLKS1Model.FK_CTTIENNGHI_TIENNGHI" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_MACTTN_CTTIENNGHI" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_DICHVU_LOAIDICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_LIENKET_PHONG_DICHVU_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_LIENKET_PHONG_DICHVU_PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_HOADON_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_HOADON_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_HOADON_PHIEUDATPHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_HOADON_PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_PHIEUDATPHONG_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_PHONG_LOAIPHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_NHANVIEN_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_PHIEUDATPHONG_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_PHIEUDATPHONG_PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_MAPHONG_PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKS1Model.FK_PHONG_TINHTRANG" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
